@@ -8,7 +8,7 @@ export const styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: 'black',
-        paddingVertical: 10
+        paddingVertical: 10,
     },
     bannerContainer: {
         marginVertical: 10,
@@ -24,5 +24,15 @@ export const styles = StyleSheet.create({
         width: 120,
         height: 160,
         marginRight: 100,
+    },
+    input: {
+        height: 30,
+        borderWidth: 1,
+        marginTop: -40,
+        paddingHorizontal: 10,
+        borderRadius: 5,
+        width: 120,
+        marginLeft: 230,
+        backgroundColor: "gray"
     },
 })
