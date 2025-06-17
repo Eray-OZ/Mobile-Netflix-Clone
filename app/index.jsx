@@ -92,8 +92,8 @@ export default function Index() {
     return (
 
         <View style={styles.container}>
-            <NavBar />
 
+            <NavBar />
 
             <FlatList
                 data={DATA}
